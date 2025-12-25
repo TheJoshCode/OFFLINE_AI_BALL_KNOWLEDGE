@@ -1,7 +1,4 @@
-# ---------------------------------------------------------------------------------------
 # WELCOME TO MY ON-DEVICE AGENT BALL KNOWLEDGE
-# ---------------------------------------------------------------------------------------
-    
     this is basically my running list of goated models and workflows for agents n stuff
     
     i know alot of you probably know ways to make things faster or better models then what im listing here
@@ -14,10 +11,7 @@
     
     also, yes ik theres probably stuff where u could cd into a dir or something and itd be cleaner, this again, is my ball knowledge, cope and seeth
 
-# ---------------------------------------------------------------------------------------
-# ---------------------------------------------------------------------------------------
 # SYSTEM PROMPTING SAUCE
-# ---------------------------------------------------------------------------------------
 
     to make an llm talk A LOT less, just end the sys prompt with "RESPOND IN A SHORT PHRASE."
 
@@ -27,11 +21,7 @@
     
     the best system prompters are manipulative and snakey people IRL, just saying.
 
-# ---------------------------------------------------------------------------------------
-# ---------------------------------------------------------------------------------------
 # TRANSCRIPTIONS SAUCE
-# ---------------------------------------------------------------------------------------
-
     use whisper.cpp's whisper-server, do http requests for the transcriptions
 ```bash
 all u gotta do is this
@@ -65,10 +55,7 @@ chmod u+x ./whisper.cpp/models/download-ggml-models.sh
     
     anything smaller than large-v2 is practically unusable, so just stick to that and on, i use large-v3-turbo-q8_0 for most of my agents. it uses about a gig of memory
 
-# ---------------------------------------------------------------------------------------
-# ---------------------------------------------------------------------------------------
 # LANGUADE MODEL SAUCE
-# ---------------------------------------------------------------------------------------
     
     use https://github.com/ggml-org/llama.cpp
     
@@ -105,9 +92,7 @@ the picture is the same, but q4 has alot less data to show the same overall imag
     
 so when u ask q4 the same question as fp16 version, itll know the overall idea of what youre asking about, missing random stuff here and there.
 ```
-# ---------------------------------------------------------------------------------------
 # MAIN STUFF THAT REDUCES VRAM USAGE WITH LLMs
-# ---------------------------------------------------------------------------------------
 
     start with f16, see if thats within ur range
 
@@ -120,11 +105,7 @@ so when u ask q4 the same question as fp16 version, itll know the overall idea o
     the model repos will list the max ctx size, or you can just buff it up and llamacpp will autoadjust and give u a warning message that says the max ctx size
 
     if that still isnt small enough, you can start lowering --n-gpu-layers.
-
-# ---------------------------------------------------------------------------------------
-# ---------------------------------------------------------------------------------------
 # VLM SAUCE (PRETTY MUCH MILKTOAST RN SRRY, DONT WANNA TYPE IT ALL OUT)
-# ---------------------------------------------------------------------------------------
 ```bash
 MY GOAT FOR VLMS IS https://huggingface.co/Qwen/Qwen3-VL-4B-Instruct-GGUF
 ```
@@ -140,10 +121,7 @@ MY GOAT FOR VLMS IS https://huggingface.co/Qwen/Qwen3-VL-4B-Instruct-GGUF
 
     some vlms have dynamic_pixels, which auto scales down videos and images
 
-# ---------------------------------------------------------------------------------------
-# ---------------------------------------------------------------------------------------
 # TTS MODEL SAUCE
-# ---------------------------------------------------------------------------------------
 
     if ur making gooner apps or ASMR stuff, use https://huggingface.co/hexgrad/Kokoro-82M
     
@@ -174,17 +152,13 @@ def generate_tts(text: str, voice: str = 'af_heart'):
     for _, _, audio in generator:
         return audio, 24000
 ```
-# ---------------------------------------------------------------------------------------
 # VOICE CLONING SAUCE
-# ---------------------------------------------------------------------------------------
     
     CHATTERBOX-TTS's TURBO IS LIKE AS GOOD OR BETTER THAN ELEVENLABS IF THAT GIVES U AN IDEA
     
     I USED IT IN MY OWN ONDEVICE APP, VOICEBOX:
     
     https://github.com/TheJoshCode/VoiceBox
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------
     
     ANYWAY, HERES HOW U INSTALL CHATTERBOX
     
@@ -209,8 +183,6 @@ def generate_tts(text: str, audio_prompt_path: str):
     wav = model.generate(text, audio_prompt_path=audio_prompt_path)
     return wav, model.sr
 ```
-# ---------------------------------------------------------------------------------------
-# ---------------------------------------------------------------------------------------
     
     THERES LIKE 5 MILLION OTHER THINGS I COULD WRITE HERE, ILL UPDATE THIS SOMETIME TO ADD MORE BALL KNOWLEDGE, FOR NOW THIS IS IT
     
@@ -220,6 +192,4 @@ def generate_tts(text: str, audio_prompt_path: str):
     
     SEE YA
 
-# ---------------------------------------------------------------------------------------
 # THIS BALL KNOWLEDGE WAS PROVIDED BY THEJOSHCODE
-# ---------------------------------------------------------------------------------------

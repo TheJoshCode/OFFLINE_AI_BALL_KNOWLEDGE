@@ -21,6 +21,16 @@
     
     the best system prompters are manipulative and snakey people IRL, just saying.
 
+# RAG SAUCE
+
+    use https://huggingface.co/Qwen/Qwen3-Embedding-0.6B
+    this model is straight up like perfect. really fast.
+
+    if ur doing stuff on jetsons, the jetson-containers have pre-built rag docker containers you can just make HTTP requests to and store stuff, theyre INSANELY fast, like rag querying 10000 4k images within like 20ms.
+    https://www.jetson-ai-lab.com/archive/tutorial_llamaindex.html
+
+    if ur doing mobile agents, honestly best thing for RAG is to just do manual bag-of-word search for the prompt and find similar images
+    
 # TRANSCRIPTIONS SAUCE
     use whisper.cpp's whisper-server, do http requests for the transcriptions
 ```bash

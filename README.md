@@ -11,6 +11,25 @@
     
     also, yes ik theres probably stuff where u could cd into a dir or something and itd be cleaner, this again, is my ball knowledge, cope and seeth
 
+# MY GOATED STACK RN:
+
+    RAG 
+    https://huggingface.co/Qwen/Qwen3-Embedding-0.6B
+    
+    STT 
+    https://github.com/ggml-org/whisper.cpp
+    
+    LLM 
+    https://huggingface.co/unsloth/Qwen3-4B-Instruct-2507-GGUF/
+    
+    VLM 
+    https://huggingface.co/Qwen/Qwen3-VL-4B-Instruct-GGUF
+    
+    FAST VOICE CLONED TTS
+    https://huggingface.co/zai-org/GLM-TTS
+    
+    SLOWER BUT REALISTIC VOICE CLONED TTS 
+    https://huggingface.co/ResembleAI/chatterbox-turbo
 # SYSTEM PROMPTING SAUCE
 
     to make an llm talk A LOT less, just end the sys prompt with "RESPOND IN A SHORT PHRASE."

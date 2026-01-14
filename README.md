@@ -7,7 +7,7 @@
     
     this isnt all i know, just like the main ball knowledge for my agent stacks
     
-    its unorganized af
+    its unorganized
     
     also, yes ik theres probably stuff where u could cd into a dir or something and itd be cleaner, this again, is my ball knowledge, cope and seeth
 # STUFF IK ABOUT JUST HAVENT TYPED OUT YET
@@ -27,13 +27,10 @@
     https://huggingface.co/unsloth/Qwen3-4B-Instruct-2507-GGUF/
     
     VLM 
-    https://huggingface.co/Qwen/Qwen3-VL-4B-Instruct-GGUF
+    https://huggingface.co/unsloth/LFM2.5-VL-1.6B-GGUF
     
-    FAST VOICE CLONED TTS
-    https://huggingface.co/zai-org/GLM-TTS
-    
-    SLOWER BUT REALISTIC VOICE CLONED TTS 
-    https://huggingface.co/ResembleAI/chatterbox-turbo
+    TTS
+    https://huggingface.co/Supertone/supertonic-2
 # SYSTEM PROMPTING SAUCE
 
     to make an llm talk A LOT less, just end the sys prompt with "RESPOND IN A SHORT PHRASE."
@@ -140,7 +137,7 @@ so when u ask q4 the same question as fp16 version, itll know the overall idea o
     if that still isnt small enough, you can start lowering --n-gpu-layers.
 # VLM SAUCE (PRETTY MUCH MILKTOAST RN SRRY, DONT WANNA TYPE IT ALL OUT)
 ```bash
-MY GOAT FOR VLMS IS https://huggingface.co/Qwen/Qwen3-VL-4B-Instruct-GGUF
+MY GOAT FOR VLMS IS https://huggingface.co/unsloth/LFM2.5-VL-1.6B-GGUF
 ```
     THE MAIN BALL KNOWLEDGE FOR VLMS THAT DOESNT APPLY TO LLMS TOO:
 
@@ -156,9 +153,9 @@ MY GOAT FOR VLMS IS https://huggingface.co/Qwen/Qwen3-VL-4B-Instruct-GGUF
 
 # TTS MODEL SAUCE
 
-    if ur making gooner apps or ASMR stuff, use https://huggingface.co/hexgrad/Kokoro-82M
+    if ur making ASMR stuff, use https://huggingface.co/hexgrad/Kokoro-82M
     
-    ik c++ is faster, but their python lib is solid af
+    ik c++ is faster, but their python lib is solid
 ```bash
 U NEED CUDA TORCH
 ```
